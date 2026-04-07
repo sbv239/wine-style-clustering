@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (raw data not committed — too large)
+data/raw/
+data/processed/
+
+# Model files
+models/*.pkl
+models/*.pt
+models/*.npy
+
+# OS
+.DS_Store
