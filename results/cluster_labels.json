@@ -1,0 +1,92 @@
+{
+  "red": {
+    "method": "KMeans",
+    "k": 6,
+    "clusters": {
+      "-1": {
+        "label": "",
+        "size": 1317
+      },
+      "0": {
+        "label": "Firm-structured, floral reds with a savoury, earthy core",
+        "size": 1273
+      },
+      "1": {
+        "label": "Silky, red-fruited aromatics with forest floor and mineral depth",
+        "size": 1542
+      },
+      "2": {
+        "label": "Dark, oak-framed power reds built on cassis and graphite",
+        "size": 1302
+      },
+      "3": {
+        "label": "Spice-driven dark reds, approachable and food-ready",
+        "size": 1518
+      },
+      "4": {
+        "label": "Bright, juicy, light reds with crunchy red fruit",
+        "size": 812
+      },
+      "5": {
+        "label": "Fresh, mineral, well-balanced reds with honest grip",
+        "size": 1019
+      }
+    }
+  },
+  "white": {
+    "method": "KMeans",
+    "k": 6,
+    "clusters": {
+      "-1": {
+        "label": "",
+        "size": 1408
+      },
+      "0": {
+        "label": "Rich, mineral-driven whites with creamy orchard depth",
+        "size": 2695
+      },
+      "1": {
+        "label": "Aromatic, fruit-expressive whites across the spectrum",
+        "size": 647
+      },
+      "2": {
+        "label": "Vibrant, tropical-citrus whites with herbal freshness",
+        "size": 869
+      },
+      "3": {
+        "label": "Full-bodied, generous whites with honeyed stone fruit weight",
+        "size": 686
+      },
+      "4": {
+        "label": "Fresh, florally aromatic whites with citrus-saline drive",
+        "size": 1482
+      },
+      "5": {
+        "label": "Precise, mineral-citrus whites with electric acidity",
+        "size": 577
+      }
+    }
+  },
+  "rose": {
+    "method": "KMeans",
+    "k": 3,
+    "clusters": {
+      "-1": {
+        "label": "",
+        "size": 308
+      },
+      "0": {
+        "label": "Deep, structured rosés with dark fruit and tannic grip",
+        "size": 248
+      },
+      "1": {
+        "label": "Elegant, mineral pale rosés with floral lift and stone fruit",
+        "size": 825
+      },
+      "2": {
+        "label": "Fresh, vivid rosés with wild berry and citrus-saline snap",
+        "size": 713
+      }
+    }
+  }
+}

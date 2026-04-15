@@ -20,3 +20,5 @@ models/*.npy
 # OS
 .DS_Store
 models/wine-finetuned/
+models/
+.vscode/
