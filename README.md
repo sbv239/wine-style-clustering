@@ -89,7 +89,7 @@ src/run_finetune_style.py ← fine-tune all-MiniLM-L6-v2 on style pairs (val los
       ↓
 03_clustering.ipynb       ← silhouette analysis → K-Means → manual labels
       ↓
-04_visualisation.ipynb    ← interactive charts for the article
+04_visualisation.ipynb    ← publication-ready charts
 ```
 
 ## Model
@@ -111,7 +111,7 @@ Sanity check (synonym similarity on held-out pairs):
 23,266 professional wine reviews from Decanter.com, scraped via custom Selenium pipeline.  
 Fields: description, score, Producer, Vintage, Wine Type, Colour, Country, Region, Appellation, Grapes, Body, Oak, Sweetness.
 
-Descriptions LLM-cleaned via Claude Haiku: winemaking details, provenance, and food pairing removed. ~11.5% of descriptions modified.
+Descriptions LLM-cleaned via Claude Haiku: winemaking details, provenance, and food pairing removed.
 
 ## Tech stack
 
@@ -119,7 +119,7 @@ Descriptions LLM-cleaned via Claude Haiku: winemaking details, provenance, and f
 - **Dimensionality reduction:** UMAP (n_neighbors=15, min_dist=0.05, cosine)
 - **Clustering:** K-Means with silhouette-based k selection
 - **Noise removal:** silhouette_samples < 0 → excluded
-- **Visualisation:** Matplotlib (static), Plotly (interactive, Sprint 4)
+- **Visualisation:** Matplotlib
 
 ## Related project
 
@@ -127,5 +127,5 @@ Builds on [wine-semantic-search](https://github.com/sbv239/wine-semantic-search)
 
 ## Article
 
-*"What 23,000 tasting notes reveal about wine styles"* — Medium / Towards Data Science  
-*(link to be added)*
+[What 23,000 tasting notes reveal about wine style — and why the language doesn't always help](https://medium.com/p/903ecbd93680)  
+Published on Medium, April 2026
