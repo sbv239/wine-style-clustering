@@ -125,7 +125,8 @@ Descriptions LLM-cleaned via Claude Haiku: winemaking details, provenance, and f
 
 Builds on [wine-semantic-search](https://github.com/sbv239/wine-semantic-search) — fine-tuned transformer for wine semantic search (+14.7% retrieval accuracy vs base model).
 
-## Article
+## Articles
 
-[What 23,000 tasting notes reveal about wine style — and why the language doesn't always help](https://medium.com/p/903ecbd93680)  
-Published on Medium, April 2026
+[What 23,000 tasting notes reveal about wine style — and why the language doesn't always help](https://medium.com/p/903ecbd93680) — Medium, April 2026
+
+[What wine language tells us — and what it hides](https://open.substack.com/pub/shramkoboris/p/what-wine-language-tells-us) — Substack, April 2026
